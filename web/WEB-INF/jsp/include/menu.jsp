@@ -9,20 +9,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/loja/produto">PRODUTOS</a>
+      <a class="navbar-brand" href="/loja/produto">LOJA</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-          <li><a href="/loja/produto/cadastro">Novo Produto</a></li>
-        <li><a href="/loja/produto/">Lista de Produtos</a></li>
-         <li><a href="/loja/sair">${funcionario} | Sair</a></li>
+        <li><a href="/loja/produto/cadastro">Novo Produto</a></li>
+        <li><a href="/loja/produto/">Lista de  produtos</a></li>
+        <li><a href="/loja/sair">${funcionario} | Sair</a></li>
 
       </ul>
-         <form class="navbar-form navbar-right" action="/loja/produto/pesquisa" method="GET">
+      <form class="navbar-form navbar-right "action="/loja/produto/pesquisa"method ="GET">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Pesquisa">
+         <input name="nome" id="nome" type="text" class="form-control" placeholder="Pesquisa">
         </div>
         <button type="submit" class="btn btn-default">Ok</button>
       </form>
